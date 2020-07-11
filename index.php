@@ -58,7 +58,7 @@ $userdata = file_get_contents($url);
 				<br />
 				<br />
 				<h2>Instance Metadata : Version 1</h2>
-
+				<h3>Getting the metadata details from the locally installed metadata service - http://169.254.169.254/latest</h3>
 				<table border="1" width="100%" cellpadding="0" cellspacing="0" id="instanceData">
 					<tr>
 						<th>Metadata Path</th>
