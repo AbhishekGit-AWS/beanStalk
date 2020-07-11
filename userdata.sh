@@ -9,4 +9,5 @@ chown -R ec2-user:apache /var/www
 chmod 2775 /var/www
 find /var/www -type d -exec chmod 2775 {} \;
 find /var/www -type f -exec chmod 0664 {} \;
+cd /var/www/html
 wget https://raw.githubusercontent.com/AbhishekGit-AWS/beanStalk/master/index.php
